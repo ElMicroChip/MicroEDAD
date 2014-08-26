@@ -9,5 +9,27 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *userText;
+
+@property (strong, nonatomic) IBOutlet UITextField *userAgeText;
+
+
+
+@property (strong, nonatomic) IBOutlet UILabel *responseUser;
+
+
+
+- (IBAction)validateUserAge:(id)sender{
+
+    NSlog(@"El usuario es: %@", _userNameText.text);
+    
+    NSLog(@"la edad es: %i", -[userAgeText.text invalue]);
+
+
+
+}
+
+
+
 
 @end

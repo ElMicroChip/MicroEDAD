@@ -21,6 +21,7 @@
 		0C2308C4199D75A500ACCC89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2308A6199D75A500ACCC89 /* UIKit.framework */; };
 		0C2308CC199D75A500ACCC89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C2308CA199D75A500ACCC89 /* InfoPlist.strings */; };
 		0C2308CE199D75A500ACCC89 /* MicroEDADTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2308CD199D75A500ACCC89 /* MicroEDADTests.m */; };
+		0C2308D9199D76CB00ACCC89 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2308D8199D76CB00ACCC89 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0C2308C9199D75A500ACCC89 /* MicroEDADTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MicroEDADTests-Info.plist"; sourceTree = "<group>"; };
 		0C2308CB199D75A500ACCC89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C2308CD199D75A500ACCC89 /* MicroEDADTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicroEDADTests.m; sourceTree = "<group>"; };
+		0C2308D7199D76CB00ACCC89 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0C2308D8199D76CB00ACCC89 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		0C230896199D75A500ACCC89 = {
 			isa = PBXGroup;
 			children = (
+				0C2308D7199D76CB00ACCC89 /* Person.h */,
+				0C2308D8199D76CB00ACCC89 /* Person.m */,
 				0C2308A8199D75A500ACCC89 /* MicroEDAD */,
 				0C2308C7199D75A500ACCC89 /* MicroEDADTests */,
 				0C2308A1199D75A500ACCC89 /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				0C2308B9199D75A500ACCC89 /* ViewController.m in Sources */,
 				0C2308B3199D75A500ACCC89 /* AppDelegate.m in Sources */,
+				0C2308D9199D76CB00ACCC89 /* Person.m in Sources */,
 				0C2308AF199D75A500ACCC89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
